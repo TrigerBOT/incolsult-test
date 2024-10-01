@@ -23,9 +23,6 @@ import Card from "~/components/Card.vue";
 let cards = computed(() => {
     return store.state.cards;
 });
-function handleClick(id) {
-  // Implement card click functionality
-}
 </script>
 
 <style lang="scss">
